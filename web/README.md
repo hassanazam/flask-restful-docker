@@ -1,4 +1,7 @@
-# Flask Restful API
+# Docker container for simple Flask restful API
+Make sure you have docker and docker-compose installed.
+
+## Flask Restful API
 A simple Flask Restful API using Flask-restful
 
 ## Description
@@ -24,18 +27,14 @@ A simple Flask Restful API using Flask-restful
 }
 ```
 
-
-## Dependencies
-- Python
-- Flask
-- flask-restful
-
-## Installing dependencies
-* pip install -r requirements.txt
-
 ## How to run
 * Clone the repo
-* $ cd flask-restful
-* $ export FLASK_APP=app.py
-* $ flask run
+* $ cd flask-restful-docker
+* $ docker-compose build
+* $ docker-compose up
+* Open new terminal/cmd
+* Find you docker machine IP by typing
+* $ docker-machine ip
+* Open your browser and type : http://<your-docker-machine-ip>:5000/
+
 
