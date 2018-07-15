@@ -35,6 +35,6 @@ A simple Flask Restful API using Flask-restful
 * Open new terminal/cmd
 * Find you docker machine IP by typing
 * $ docker-machine ip
-* Open your browser and type : http://<your-docker-machine-ip>:5000/
+* Open your browser and type : http://your-docker-machine-ip:5000/
 
 
